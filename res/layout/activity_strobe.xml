@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.StrobeActivity">
+
+        <SeekBar
+            android:id="@+id/sb1"
+            android:layout_width="484dp"
+            android:layout_height="88dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="265dp"
+            android:thumb="@drawable/tred1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="93dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="Strobe"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="70dp"
+            android:layout_height="63dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="188dp"
+            android:layout_marginEnd="149dp"
+            android:inputType="number"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="40sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <ImageButton
+            android:id="@+id/bt1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/poweroff" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+</RelativeLayout>
